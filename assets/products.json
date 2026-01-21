@@ -1,0 +1,365 @@
+{
+  "company": "Y.K Industries",
+  "location": "New Delhi, India",
+  "categories": [
+    {
+      "id": "cooler_pump",
+      "name": "Cooler Pump",
+      "products": [
+        {
+          "image":"assets/images/Volto.webp",
+          "name": "18 Watt Volto Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 Watt",
+            "Color": "Red And White",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Brand": "Volto",
+            "Max Flow Rate": "750m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Voltage": "250 V",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/40wzoom.webp",
+          "name": "40 Watt Zoom Plus Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "40 Watt",
+            "Color": "White And Black",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Cooler",
+            "Brand": "Zoom Plus",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Country of Origin": "Made in India",
+            "Pressure Height": "1.85 mtr",
+            "Output": "1200L/H",
+            "Price": "₹180 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wToyam.webp",
+          "name": "18 Watt Toyam TY 30 Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 Watt",
+            "Color": "White And Black",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Model Name/Number": "TY 30",
+            "Brand": "Toyam",
+            "Max Flow Rate": "750m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Voltage": "240 V",
+            "Output": "1100L/H",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/9wzoom.webp",
+          "name": "9 Watt Zoom Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "9 Watt",
+            "Color": "WhiteAnd Black",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Brand": "Zoom",
+            "Max Flow Rate": "2000m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Voltage": "250 V",
+            "Output": "700L/H",
+            "Pressure Height": "0.75 Mtr",
+            "Price": "₹70 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wToyamCooler.webp",
+          "name": "18 Watt Toyam Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 Watt",
+            "Color": "Blue",
+            "Motor Phase": "Single Phase",
+            "Power Source": "Electric",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Brand": "Toyam",
+            "Max Flow Rate": "2000m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Price": "₹120 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wToyamH950.webp",
+          "name": "18 Watt Toyam H 950 Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 Watt",
+            "Color": "White And Black",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Model Name/Number": "H 950",
+            "Brand": "Toyam",
+            "Max Flow Rate": "2000m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Voltage": "240 VAC",
+            "Output": "1200L/H",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wzoloCooler.webp",
+          "name": "18 Watt Zolo Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 Watt",
+            "Color": "Blue And White",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Model Name/Number": "CD-947",
+            "Brand": "Zolo",
+            "Max Flow Rate": "2000m3/hr",
+            "Material": "Plastic",
+            "Voltage": "250 V",
+            "Frequency": "50 Hz",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/40wCooler.webp",
+          "name": "40 Watt Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Color": "White And Maroon",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Max Flow Rate": "500m3/hr",
+            "Material": "Plastic",
+            "Frequency": "50 Hz",
+            "Power": "40 Watt",
+            "Voltage": "240 V",
+            "Pressure Height": "2.65 Meter",
+            "Output": "3200 L/H",
+            "Price": "₹180 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wzolocoolerpump.webp",
+          "name": "18 Watt Zolo Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Color": "Brown And White",
+            "Brand": "Zolo",
+            "Power Source": "Electric",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Max Flow Rate": "2000m3/hr",
+            "Material": "Plastic",
+            "Power": "12 Watt",
+            "Frequency": "60 Hz",
+            "Voltage": "250 V",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wdingo.webp",
+          "name": "18 Watt Dingo Single Phase Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Color": "Black",
+            "Power Source": "Electric",
+            "Motor Phase": "Single Phase",
+            "Usage/Application": "Supplying Heat Exchangers With Cooling Water",
+            "Brand": "Dingo",
+            "Max Flow Rate": "500m3/hr",
+            "Material": "Plastic",
+            "Power Rating": "10 W",
+            "Voltage": "230 V",
+            "Output": "1100 L/H",
+            "Max Pressure Height": "1.85 mtr",
+            "Price": "₹120 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/PT0YK01.webp",
+          "name": "PT0YK01 Desert Cooler Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18W",
+            "Number Of Stages": "Single-stage Pump",
+            "Head": "50m",
+            "Motor Phase": "Single Phase",
+            "Type": "Electric",
+            "Model Name/Number": "PT01 YK01",
+            "Power Source": "Pump Only",
+            "Warranty": "6 months",
+            "Voltage": "60 V",
+            "Material": "Plastic",
+            "Color": "Blue And White",
+            "Pump Body": "ABS",
+            "Usage/Application": "Circulating The Water From The Tank To The Cooling Pads.",
+            "Discharge Flow": "200 LPM",
+            "Price": "₹75 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wpumpcamera.webp",
+          "name": "Electric 18 watt pump camera model",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Power": "18 W",
+            "Power Source": "Pump Only",
+            "Material": "plastic",
+            "Warranty": "12 months",
+            "Country of Origin": "Made in India",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece",
+            "Delivery Time": "2 days"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fountain_pump",
+      "name": "Fountain Pump",
+      "products": [
+        {
+          "image":"assets/images/18wdingofountain.webp",
+          "name": "18 Watt Dingo Fountain Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Product Type": "Agricultural Water Pump",
+            "Motor Phase": "Single Phase",
+            "Engine Horsepower": "1 hp",
+            "Power": "18 Watt",
+            "Max Flow Rate": "1100 LPM",
+            "Material": "Plastic",
+            "Power Source": "Electric",
+            "Brand": "Toyam",
+            "Usage/Application": "To Supply The Flow Of Water To Fountains",
+            "Output": "1200L/H",
+            "Pressure Height": "1.85 Meter",
+            "Price": "₹73 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/18wzolofountain.webp",
+          "name": "18 Watt Zolo Fountain Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Product Type": "Fountain Pump",
+            "Motor Phase": "Single Phase",
+            "Engine Horsepower": "1.5 HP",
+            "Max Flow Rate": "1000 LPM",
+            "Material": "Plastic",
+            "Power Source": "Electric",
+            "Voltage": "240 V",
+            "Frequency": "50 Hz",
+            "Brand": "Zolo",
+            "Power": "18 Watt",
+            "Usage/Application": "To Supply The Flow Of Water To Fountains",
+            "Pressure Height": "1.45 Meter",
+            "Output": "1100L/H",
+            "Price": "₹80 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        },
+        {
+          "image":"assets/images/waterfountain.webp",
+          "name": "Water Fountain Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Country of Origin": "Made in India",
+            "Price": "₹100 / Piece",
+            "Minimum Order Quantity": "5000 Piece",
+            "Additional Information": "Production Capacity: Unlimited, Delivery Time: 4-5 Days"
+          }
+        },
+        {
+          "image":"assets/images/18wtoyamfountain.webp",
+          "name": "18 Watt Toyam Fountain Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Product Type": "Agricultural Water Pump",
+            "Motor Phase": "Single Phase",
+            "Engine Horsepower": "1 hp",
+            "Power": "40 Watt",
+            "Max Flow Rate": "1000 LPM",
+            "Material": "Plastic",
+            "Power Source": "Electric",
+            "Frequency": "50 Hz",
+            "Brand": "Toyam",
+            "Usage/Application": "To Supply The Flow Of Water To Fountains",
+            "Pressure Height": "1.45 Meter",
+            "Output": "3200 L/H",
+            "Price": "₹72 / Piece",
+            "Minimum Order Quantity": "5000 Piece"
+          }
+        }
+      ]
+    },
+    {
+      "id": "new_items",
+      "name": "New Items",
+      "products": [
+        {
+          "image":"assets/images/aquarium.webp",
+          "name": "Aquarium Water Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Flow Rate": "2500 L/h",
+            "Power": "18W",
+            "Pump Type":"Aquarium Pump",
+            "Max Head (H-max)":"4.0m",
+            "Usage/Application":"Aquarium, Fountain, Water Cooler",
+            "Voltage":"220-240V AC"
+          }
+        },
+        {
+          "image":"assets/images/fishtank.webp",
+          "name": "Fish Tank Water Pump",
+          "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
+          "specs": {
+            "Flow Rate": "2500 L/h",
+            "Power": "18W",
+            "Pump Type":"Fish Tank",
+            "Max Head (H-max)":"4.0m",
+            "Usage/Application":"Water Cooler, Aquarium",
+            "Voltage":"220-240V AC"
+          }
+        }
+      ]
+    }
+  ]
+}
