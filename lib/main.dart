@@ -17,6 +17,27 @@ double rs(BuildContext context, double mobile, double tablet, double desktop) {
   return desktop;
 }
 
+Future<void> openWhatsApp(String message) async {
+  final String phone = "918070090061"; // no +, no spaces
+  final String encodedMessage = Uri.encodeComponent(message);
+
+  final Uri whatsappUri = Uri.parse(
+    "whatsapp://send?phone=$phone&text=$encodedMessage",
+  );
+
+  final Uri webUri = Uri.parse("https://wa.me/$phone?text=$encodedMessage");
+
+  try {
+    if (await canLaunchUrl(whatsappUri)) {
+      await launchUrl(whatsappUri, mode: LaunchMode.externalApplication);
+    } else {
+      await launchUrl(webUri, mode: LaunchMode.externalApplication);
+    }
+  } catch (_) {
+    await launchUrl(webUri, mode: LaunchMode.externalApplication);
+  }
+}
+
 class VideoBackground extends StatefulWidget {
   const VideoBackground({super.key});
 
@@ -257,14 +278,14 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  Future<void> _openWhatsApp() async {
-    final Uri url = Uri.parse(
-      "https://wa.me/8070090061?text=Hello%20I%20would%20like%20to%20enquire%20about%20your%20water%20pumps.",
-    );
-    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-      throw 'Could not open WhatsApp';
-    }
-  }
+  // Future<void> _openWhatsApp() async {
+  //   final Uri url = Uri.parse(
+  //     "https://wa.me/918070090061?text=${Uri.encodeComponent("Hello, I would like to enquire about your water pumps.")}",
+  //   );
+  //   if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+  //     throw 'Could not open WhatsApp';
+  //   }
+  // }
 
   List<dynamic> categories = [];
   String selectedCategory = '';
@@ -736,7 +757,11 @@ class _HomePageState extends State<HomePage> {
 
                                 // WhatsApp Button
                                 GestureDetector(
-                                  onTap: _openWhatsApp,
+                                  onTap: () {
+                                    openWhatsApp(
+                                      "Hello, I would like to enquire about your water pumps.",
+                                    );
+                                  },
                                   child: GlassCard(
                                     blur: 4,
                                     opacity: 0.18,
@@ -814,16 +839,16 @@ class _ProductDetailDialog extends StatelessWidget {
   final PumpProduct product;
   const _ProductDetailDialog({required this.product});
 
-  Future<void> _enquireOnWhatsApp(BuildContext context) async {
-    final String message = "I would like to buy ${product.name}";
-    final Uri url = Uri.parse(
-      "https://wa.me/8070090061?text=${Uri.encodeComponent(message)}",
-    );
+  // Future<void> _enquireOnWhatsApp(BuildContext context) async {
+  //   final String message = "I would like to buy ${product.name}";
+  //   final Uri url = Uri.parse(
+  //     "https://wa.me/918070090061?text=${Uri.encodeComponent(message)}",
+  //   );
 
-    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-      throw 'Could not open WhatsApp';
-    }
-  }
+  //   if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+  //     throw 'Could not open WhatsApp';
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -939,7 +964,9 @@ class _ProductDetailDialog extends StatelessWidget {
                       const SizedBox(height: 20),
 
                       GestureDetector(
-                        onTap: () => _enquireOnWhatsApp(context),
+                        onTap: () {
+                          openWhatsApp("I would like to buy ${product.name}");
+                        },
                         child: GlassCard(
                           blur: 4,
                           opacity: 0.22,
