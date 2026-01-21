@@ -1,5 +1,5 @@
 {
   "installCommand": "bash install_flutter.sh",
-  "buildCommand": "flutter build web",
+  "buildCommand": "export PATH=\"$PWD/flutter/bin:$PATH\" && flutter build web",
   "outputDirectory": "build/web"
 }

@@ -1,4 +1,10 @@
 #!/bin/bash
+set -e
+
 git clone https://github.com/flutter/flutter.git -b stable
-export PATH="$PATH:`pwd`/flutter/bin"
+
+# Make flutter executable globally inside this build
+export PATH="$PWD/flutter/bin:$PATH"
+
+flutter --version
 flutter doctor
