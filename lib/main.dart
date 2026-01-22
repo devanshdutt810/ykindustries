@@ -329,6 +329,7 @@ class _HomePageState extends State<HomePage> {
     final double screenWidth = MediaQuery.of(context).size.width;
     final bool isMobile = screenWidth < 600;
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Stack(
         children: [
           const VideoBackground(),
