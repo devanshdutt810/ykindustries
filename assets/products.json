@@ -7,7 +7,7 @@
       "name": "Cooler Pump",
       "products": [
         {
-          "image":"assets/images/Volto.webp",
+          "image":"assets/images/Volto.jpg",
           "name": "18 Watt Volto Cooler Pump",
           "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
           "specs": {
@@ -28,19 +28,19 @@
         },
         {
           "image":"assets/images/40wzoom.webp",
-          "name": "40 Watt Zoom Plus Cooler Pump",
+          "name": "40 Watt Zolo Plus Cooler Pump",
           "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
           "specs": {
             "Power": "40 Watt",
-            "Color": "White And Black",
+            "Color": "Cherry And White",
             "Power Source": "Electric",
             "Motor Phase": "Single Phase",
             "Usage/Application": "Cooler",
-            "Brand": "Zoom Plus",
+            "Brand": "Zolo Plus",
             "Material": "Plastic",
             "Frequency": "50 Hz",
             "Country of Origin": "Made in India",
-            "Pressure Height": "1.85 mtr",
+            "Pressure Height": "2.7 mtr",
             "Output": "1200L/H",
             "Price": "₹180 / Piece",
             "Minimum Order Quantity": "5000 Piece"
@@ -255,7 +255,7 @@
       "products": [
         {
           "image":"assets/images/18wdingofountain.webp",
-          "name": "18 Watt Dingo Fountain Pump",
+          "name": "18 Watt Dingo Fountain Pump (CCA)",
           "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
           "specs": {
             "Product Type": "Agricultural Water Pump",
@@ -275,7 +275,7 @@
         },
         {
           "image":"assets/images/18wzolofountain.webp",
-          "name": "18 Watt Zolo Fountain Pump",
+          "name": "18 Watt Zolo Fountain Pump (Pure Copper)",
           "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
           "specs": {
             "Product Type": "Fountain Pump",
@@ -297,7 +297,7 @@
         },
         {
           "image":"assets/images/waterfountain.webp",
-          "name": "Water Fountain Pump",
+          "name": "TY 30 Water Fountain Pump",
           "description": "We are engaged in offering this product to our clients. Our range of all products is widely appreciated by our clients.",
           "specs": {
             "Country of Origin": "Made in India",

@@ -332,9 +332,17 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          const VideoBackground(),
+          //const VideoBackground(),
 
-          // Dark overlay for readability
+          // Image background
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/background.jpg',
+              fit: BoxFit.cover,
+            ),
+          ),
+
+          // Optional dark overlay for readability
           Container(color: Colors.black.withOpacity(0.35)),
 
           // Main scrollable content
@@ -361,7 +369,7 @@ class _HomePageState extends State<HomePage> {
                               "YK Industries",
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                color: Colors.white.withOpacity(0.8),
+                                color: Colors.white,
                                 fontSize: rs(context, 24, 32, 40),
                                 fontWeight: FontWeight.bold,
                               ),
@@ -371,7 +379,7 @@ class _HomePageState extends State<HomePage> {
                               "Engineering Water Flow Solutions Since 2012",
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                color: Colors.white.withOpacity(0.6),
+                                color: Colors.white,
                                 fontSize: rs(context, 14, 16, 20),
                                 fontWeight: FontWeight.w500,
                                 //color: Colors.black87,
@@ -383,7 +391,7 @@ class _HomePageState extends State<HomePage> {
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontSize: rs(context, 13, 15, 17),
-                                color: Colors.white.withOpacity(0.6),
+                                color: Colors.white,
                                 height: 1.5,
                               ),
                             ),
@@ -409,7 +417,7 @@ class _HomePageState extends State<HomePage> {
                           "Our Product Range",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            color: Colors.white.withOpacity(0.9),
+                            color: Colors.white,
                             fontSize: rs(context, 22, 26, 28),
                             fontWeight: FontWeight.bold,
                           ),
@@ -422,7 +430,7 @@ class _HomePageState extends State<HomePage> {
                           "High‑performance pumps engineered for durability and efficiency.",
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            color: Colors.white.withOpacity(0.7),
+                            color: Colors.white,
                             fontSize: rs(context, 14, 16, 20),
                             //color: Colors.black54,
                           ),
@@ -471,7 +479,7 @@ class _HomePageState extends State<HomePage> {
                                         style: TextStyle(
                                           color: isSelected
                                               ? Colors.white
-                                              : Colors.white.withOpacity(0.75),
+                                              : Colors.white,
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -574,9 +582,7 @@ class _HomePageState extends State<HomePage> {
                                           style: TextStyle(
                                             fontWeight: FontWeight.w600,
                                             fontSize: 14,
-                                            color: Colors.white.withOpacity(
-                                              0.8,
-                                            ),
+                                            color: Colors.white,
                                           ),
                                         ),
                                         // const SizedBox(height: 6),
@@ -627,7 +633,7 @@ class _HomePageState extends State<HomePage> {
                                     style: TextStyle(
                                       fontSize: rs(context, 22, 26, 28),
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.white.withOpacity(0.8),
+                                      color: Colors.white,
                                     ),
                                   ),
                                 ),
@@ -636,7 +642,7 @@ class _HomePageState extends State<HomePage> {
                                   "YK Industries is a Delhi‑based manufacturer specializing in the production of high‑quality water pumps. Established in 2012, we have built a strong reputation for delivering reliable and durable pumping solutions for coolers, fountains, and compact water systems.",
                                   style: TextStyle(
                                     fontSize: rs(context, 14, 16, 20),
-                                    color: Colors.white.withOpacity(0.6),
+                                    color: Colors.white,
                                     height: 1.5,
                                   ),
                                 ),
@@ -645,30 +651,24 @@ class _HomePageState extends State<HomePage> {
                                   "Our manufacturing process emphasizes precision engineering, strict quality control, and long‑term performance. We serve both wholesale and bulk buyers across India.",
                                   style: TextStyle(
                                     fontSize: rs(context, 14, 16, 20),
-                                    color: Colors.white.withOpacity(0.6),
+                                    color: Colors.white,
                                     height: 1.5,
                                   ),
                                 ),
                                 SizedBox(height: 16),
                                 Text(
                                   "Location: Mayapuri, New Delhi, India",
-                                  style: TextStyle(
-                                    color: Colors.white.withOpacity(0.6),
-                                  ),
+                                  style: TextStyle(color: Colors.white),
                                 ),
                                 SizedBox(height: 6),
                                 Text(
                                   "Established: 2012",
-                                  style: TextStyle(
-                                    color: Colors.white.withOpacity(0.6),
-                                  ),
+                                  style: TextStyle(color: Colors.white),
                                 ),
                                 SizedBox(height: 6),
                                 Text(
                                   "Business Type: Manufacturer & Wholesale Supplier",
-                                  style: TextStyle(
-                                    color: Colors.white.withOpacity(0.6),
-                                  ),
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ],
                             ),
@@ -690,7 +690,7 @@ class _HomePageState extends State<HomePage> {
                                     style: TextStyle(
                                       fontSize: rs(context, 22, 26, 28),
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.white.withOpacity(0.8),
+                                      color: Colors.white,
                                     ),
                                   ),
                                 ),
@@ -882,7 +882,7 @@ class _ProductDetailDialog extends StatelessWidget {
                         style: TextStyle(
                           fontSize: rs(context, 18, 19, 20),
                           fontWeight: FontWeight.bold,
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white,
                         ),
                       ),
                       const SizedBox(height: 8),
@@ -890,24 +890,12 @@ class _ProductDetailDialog extends StatelessWidget {
                         product.description,
                         style: TextStyle(
                           fontSize: rs(context, 13, 13.5, 14),
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white,
                         ),
                       ),
                       const SizedBox(height: 6),
-                      Text(
-                        product.specs['Price'] ?? '',
-                        style: TextStyle(
-                          fontSize: rs(context, 14, 15, 16),
-                          color: Colors.greenAccent,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        product.specs['Minimum Order Quantity'] ?? '',
-                        style: TextStyle(color: Colors.white.withOpacity(0.9)),
-                      ),
 
+                      // Price and MOQ removed for premium UI
                       const SizedBox(height: 16),
 
                       ClipRRect(
@@ -930,37 +918,41 @@ class _ProductDetailDialog extends StatelessWidget {
                         style: TextStyle(
                           fontSize: rs(context, 16, 17, 18),
                           fontWeight: FontWeight.bold,
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white,
                         ),
                       ),
                       const SizedBox(height: 12),
 
-                      ...product.specs.entries.map(
-                        (e) => Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 6),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Text(
-                                  e.key,
-                                  style: TextStyle(
-                                    color: Colors.white.withOpacity(0.9),
+                      ...product.specs.entries
+                          .where(
+                            (e) =>
+                                e.key != 'Price' &&
+                                e.key != 'Minimum Order Quantity',
+                          )
+                          .map(
+                            (e) => Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 6),
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      e.key,
+                                      style: TextStyle(color: Colors.white),
+                                    ),
                                   ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Text(
-                                  e.value,
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.w600,
-                                    color: Colors.white.withOpacity(0.9),
+                                  Expanded(
+                                    child: Text(
+                                      e.value,
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.w600,
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ),
-                                ),
+                                ],
                               ),
-                            ],
+                            ),
                           ),
-                        ),
-                      ),
 
                       const SizedBox(height: 20),
 
